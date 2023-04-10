@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="CourseProjectMain:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/CourseProjectMain_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="CourseProjectMain/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="CourseProjectMain" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mysql.connector.java" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar" />
+          <element id="library" level="project" name="springframework.spring.core" />
+          <element id="library" level="project" name="springframework.spring.webmvc" />
+          <element id="library" level="project" name="springframework.security.spring.core" />
+          <element id="library" level="project" name="google.code.gson" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
